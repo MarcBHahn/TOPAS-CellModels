@@ -5,6 +5,22 @@ The C++ classes in this repository extend the functionality of the TOPAS (http:/
 
 
 Installation:
+Navigate to the TOPAS extension directory:
+
+  cd ~/topas_extensions/
+
+Clone or download the sourcecode into your TOPAS extension directory:
+ 
+  git clone https://github.com/MarcBHahn/TOPAS-CellModels.git
+ 
+Change to your topas directory:
+
+  cd ~/Topas/
+
+Install it:
+  
+  cmake ./ -DTOPAS_EXTENSIONS_DIR=~/topas_extensions/TOPAS-CellModels &&  make -j4  
+
 
 
 Documentation:
