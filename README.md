@@ -16,7 +16,7 @@ Navigate to the TOPAS extension directory:
 
 Clone or download the sourcecode into your TOPAS extension directory:
  
-  git clone https://github.com/MarcBHahn/TOPAS-CellModels.git
+  git clone https://github.com/BAMresearch/TOPAS-CellModels.git
  
 Change to your topas directory:
 
