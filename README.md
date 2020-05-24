@@ -1,3 +1,4 @@
+### WARNING: This is still work in progress and should be considered an alpha release ###
 # TOPAS-CellModels
 1) Description:
 
@@ -23,8 +24,22 @@ Change to your topas directory:
   cd ~/Topas/
 
 Install it:
-  
-  cmake ./ -DTOPAS_EXTENSIONS_DIR=~/topas_extensions/TOPAS-CellModels &&  make -j4  
+
+  cmake ./ -DTOPAS_EXTENSIONS_DIR=~/topas_extensions/TOPAS-CellModels &&  make -j4
 
 
-3) Usage:
+3) Description:
+
+A simple spherical cell with nanoparticles can be generated in a fast manner.
+The user has the option of including organelles: nucleus, mitochondria, cell membrane and/or nanoparticles.
+
+
+4) Usage:
+
+Examples can be found in the  "examples/" directory.
+ 
+
+ 
+5) Bugs:
+
+Please report bugs to hahn@physik.fu-berlin.de or on https://github.com/BAMresearch 
