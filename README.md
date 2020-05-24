@@ -31,13 +31,13 @@ Install it:
 3) Description:
 
 A simple spherical cell with nanoparticles can be generated in a fast manner.
-The user has the option of including organelles: nucleus, mitochondria, cell membrane and/or nanoparticles.
+The user has the option to include nanoparticles and different organelles in the cell, e.g. a nucleus, mitochondria, a cell membrane.
 
 
 4) Usage:
 
 Examples can be found in the  "examples/" directory.
- 
+
 
  
 5) Bugs:
