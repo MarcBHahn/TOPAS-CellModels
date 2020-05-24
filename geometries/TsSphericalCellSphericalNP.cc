@@ -77,11 +77,10 @@ G4VPhysicalVolume* TsSphericalCellSphericalNP::Construct()
     G4String nameMembrane = GetFullParmName("Membrane/Thickness");
     if (fPm->ParameterExists(nameMembrane)) {
         
-        
+      
         //Membrane thickness for scoring
         MembraneThickness  = fPm->GetDoubleParameter( nameMembrane, "Length" );
         G4ThreeVector* CellPosition = new G4ThreeVector(0,0,0);
-
         G4Sphere* gMembrane = new G4Sphere ("Membrane", CellRadius-MembraneThickness, CellRadius, 0., CLHEP::twopi, 0., CLHEP::pi);
         G4LogicalVolume* lMembrane = CreateLogicalVolume("Membrane", gMembrane);
         G4VPhysicalVolume* pMembrane = CreatePhysicalVolume("Membrane", lMembrane, rotationMatrix, CellPosition, fEnvelopePhys);
@@ -125,7 +124,6 @@ G4VPhysicalVolume* TsSphericalCellSphericalNP::Construct()
             
 
         G4ThreeVector* NucPos = new G4ThreeVector(transNucX,transNucY,transNucZ);
-    
         G4Sphere* gNucleus = new G4Sphere ("Nucleus", 0.0, NucleusRadius, 0., CLHEP::twopi, 0., CLHEP::pi);
         G4LogicalVolume* lNucleus = CreateLogicalVolume("Nucleus", gNucleus);
         pNucleus = CreatePhysicalVolume("Nucleus", lNucleus, rotationMatrix, NucPos, fEnvelopePhys);
