@@ -30,10 +30,8 @@ public:
 				  TsVGeometryComponent* parentComponent, G4VPhysicalVolume* parentVolume, G4String& name);
 	~TsSphericalCellSphericalNP();
 	
-	G4VPhysicalVolume* Construct();
-    
+	G4VPhysicalVolume* Construct(); 
     void ResolveParameters();
-    
     
 private:
     
@@ -41,7 +39,6 @@ private:
     G4double NucleusRadius;
     G4double MitoRadius;
     G4double MembraneThickness;
-
     
     G4RotationMatrix* rotationMatrix;
     G4VPhysicalVolume* pNucleus;
@@ -56,7 +53,6 @@ private:
     G4ThreeVector* AddSphereToCell(G4double radius);
     void AddCoordinates(std::vector<std::vector<G4double> >& Coordinates, G4double r, G4double x, G4double y, G4double z);   
     
-
     
 };
 

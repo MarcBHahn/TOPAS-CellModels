@@ -118,7 +118,7 @@ G4VPhysicalVolume* TsSphericalCellSphericalNP::Construct()
         }
         
         if ((sqrt(transNucX*transNucX)+(transNucY*transNucY)+(transNucZ*transNucZ)) > (CellRadius-NucleusRadius)) {
-                G4cerr << "Topas is exiting due to a serious error in geometry setup." << G4endl;
+                G4cerr << "Topas is exiting due to a serious error during the geometry setup." << G4endl;
                 G4cerr << "Parameter " << name1 << " sets nucleus outside of cell." << G4endl;
                 exit(1);
             }

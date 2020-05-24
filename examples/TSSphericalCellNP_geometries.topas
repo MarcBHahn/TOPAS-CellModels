@@ -1,4 +1,3 @@
- 
 #### CELL ####
 s:Ge/MyCell/Type="TsSphericalCellSphericalNP"
 s:Ge/MyCell/Material="Cytoplasm"
@@ -17,9 +16,7 @@ s:Ge/MyCell/Nucleus/Color="red"
 
 #MITOCHONDRIA - optional
 i:Ge/MyCell/Mitochondria/NumberOfMitochondria= 10
-d:Ge/MyCell/Mitochondria/a= 500 nm
-d:Ge/MyCell/Mitochondria/b= 500 nm
-d:Ge/MyCell/Mitochondria/c= 500 nm 
+d:Ge/MyCell/Mitochondria/r= 500 nm
 s:Ge/MyCell/Mitochondria/Material="Cytoplasm"
 s:Ge/MyCell/Mitochondria/Color="grass"
 s:Ge/MyCell/Mitochondria/DrawingStyle="wireframe"
