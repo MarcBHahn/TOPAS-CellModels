@@ -42,4 +42,4 @@ Examples can be found in the  "examples/" directory.
  
 5) Bugs:
 
-Please report bugs to hahn@physik.fu-berlin.de or on https://github.com/BAMresearch 
+Please report bugs to hahn@physik.fu-berlin.de or on https://github.com/BAMresearch/TOPAS-CellModels
