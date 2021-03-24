@@ -45,7 +45,10 @@ Please report bugs to hahn@physik.fu-berlin.de or on https://github.com/BAMresea
 
 
 6) Literature:
+
 If you use this extension please cite the following literature:
+
 Hahn, M.B., Zutta Villate, J.M. "Combined cell and nanoparticle models for TOPAS to study radiation dose enhancement in cell organelles."
 Sci Rep 11, 6721 (2021). 
+
 https://doi.org/10.1038/s41598-021-85964-2
