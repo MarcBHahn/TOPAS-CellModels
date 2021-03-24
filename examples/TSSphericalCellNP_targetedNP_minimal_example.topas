@@ -57,8 +57,8 @@ s:Ge/MyCell/Nucleus/DrawingStyle="solid"
 s:Ge/MyCell/Nucleus/Color="red"
 
 #MITOCHONDRIA - optional
-i:Ge/MyCell/Mitochondria/NumberOfMitochondria= 10
-d:Ge/MyCell/Mitochondria/r= 500 nm
+i:Ge/MyCell/Mitochondria/NumberOfMitochondria= 100
+d:Ge/MyCell/Mitochondria/r= 300 nm
 s:Ge/MyCell/Mitochondria/Material="Cytoplasm"
 s:Ge/MyCell/Mitochondria/Color="grass"
 s:Ge/MyCell/Mitochondria/DrawingStyle="wireframe"
@@ -75,3 +75,12 @@ d:Ge/MyCell/Nanoparticle/r = 50 nm
 s:Ge/MyCell/Nanoparticle/Material = "Gold"
 s:Ge/MyCell/Nanoparticle/Color = "yellow"
 s:Ge/MyCell/Nanoparticle/DrawingStyle = "solid"
+
+#NANOPARTICLES at the nucleus - optional
+i:Ge/MyCell/Nanoparticle/NumberOfNanoparticlesAtNucleus=500
+
+#NANOPARTICLES at the mitochondria - optional
+i:Ge/MyCell/Nanoparticle/NumberOfNanoparticlesAtMitochondria=100
+
+#The total number of nanoparticles is 1600 here
+#all with the same radius, material etc

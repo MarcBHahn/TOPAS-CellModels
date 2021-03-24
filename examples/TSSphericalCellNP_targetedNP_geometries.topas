@@ -1,45 +1,3 @@
-#### GENERAL ####
-i:Ts/Seed =  1  #starting random seed 
-i:Ts/NumberOfThreads = -1
-b:Ts/DumpParameters = "True" 
-Ts/PauseBeforeQuit = "False"
-
-
-#### GUI ####
-s:Gr/ViewA/Type = "OpenGL"
-i:Gr/ViewA/WindowSizeX = 1200
-i:Gr/ViewA/WindowSizeY = 1000
-u:Gr/ViewA/Zoom = 2.
-Ts/UseQt = "True"
-
-#### MATERIALS #### 
-#Pure gold
-sv:Ma/Gold/Components = 1 "Gold"
-uv:Ma/Gold/Fractions = 1 1.0
-d:Ma/Gold/Density = 19.32 g/cm3
-s:Ma/Gold/DefaultColor = "yellow"
-
-#Cell cytoplasm
-sv:Ma/Cytoplasm/Components = 4 "Hydrogen" "Carbon" "Nitrogen" "Oxygen"
-uv:Ma/Cytoplasm/Fractions = 4 0.1025 0.1225 0.0425 0.7325
-d:Ma/Cytoplasm/Density = 1.0 g/cm3
-s:Ma/Cytoplasm/DefaultColor = "blue"
-
-#Cell Nucleoplasm
-sv:Ma/Nucleoplasm/Components = 6 "Hydrogen" "Carbon" "Nitrogen" "Oxygen" "Sulfur" "Potassium"
-uv:Ma/Nucleoplasm/Fractions = 6 0.106 0.09 0.032 0.742 0.004 0.026
-d:Ma/Nucleoplasm/Density = 1.0 g/cm3
-s:Ma/Nucleoplasm/DefaultColor = "red"
-
-
-#### WORLD ####
-s:Ge/World/Type = "TsBox"
-d:Ge/World/HLX = 6. um
-d:Ge/World/HLY = 6. um
-d:Ge/World/HLZ = 6. um
-s:Ge/World/Material = "Vacuum"
-
-
 #### CELL ####
 s:Ge/MyCell/Type="TsSphericalCellSphericalNP"
 s:Ge/MyCell/Material="Cytoplasm"
@@ -53,7 +11,7 @@ s:Ge/MyCell/Nucleus/Material="Nucleoplasm"
 d:Ge/MyCell/Nucleus/translateX = 0.0 um
 d:Ge/MyCell/Nucleus/translateY = 0.0 um
 d:Ge/MyCell/Nucleus/translateZ = 0.0 um
-s:Ge/MyCell/Nucleus/DrawingStyle="solid"
+s:Ge/MyCell/Nucleus/DrawingStyle="wireframe"
 s:Ge/MyCell/Nucleus/Color="red"
 
 #MITOCHONDRIA - optional
@@ -75,3 +33,12 @@ d:Ge/MyCell/Nanoparticle/r = 50 nm
 s:Ge/MyCell/Nanoparticle/Material = "Gold"
 s:Ge/MyCell/Nanoparticle/Color = "yellow"
 s:Ge/MyCell/Nanoparticle/DrawingStyle = "solid"
+
+#NANOPARTICLES at the nucleus - optional
+i:Ge/MyCell/Nanoparticle/NumberOfNanoparticlesAtNucleus=500
+
+#NANOPARTICLES at the mitochondria - optional
+i:Ge/MyCell/Nanoparticle/NumberOfNanoparticlesAtMitochondria=100
+
+#The total number of nanoparticles is 1600 here
+#all with the same radius, material etc

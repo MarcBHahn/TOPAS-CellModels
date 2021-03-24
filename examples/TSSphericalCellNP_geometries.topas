@@ -27,7 +27,7 @@ s:Ge/MyCell/Membrane/Material="Cytoplasm"
 s:Ge/MyCell/Membrane/Color="grass"
 s:Ge/MyCell/Membrane/DrawingStyle="wireframe"
 
-#NANOPARTICLES - optional
+#NANOPARTICLES in the cytosol - optional
 i:Ge/MyCell/Nanoparticle/NumberOfNanoparticles = 1000
 d:Ge/MyCell/Nanoparticle/r = 50 nm
 s:Ge/MyCell/Nanoparticle/Material = "Gold"
