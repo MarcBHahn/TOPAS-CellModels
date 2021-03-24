@@ -6,8 +6,8 @@
 // * The TOPAS-nBio extensions are freely available under the license *
 // * agreement set forth at: https://topas-nbio.readthedocs.io/       *
 // *                                                                  *              
-// *  Extended by Marc B. Hahn (2021)                                             *
-// *  Please report bugs to hahn@physiks.fu-berlin.de                 *
+// *  Extended by Marc B. Hahn (2021)                                 *
+// *  Please report bugs to hahn@physik.fu-berlin.de                  *
 // *  or on https://github.com/BAMresearch/TOPAS-CellModels           *    
 // ********************************************************************
 //
